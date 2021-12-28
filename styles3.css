@@ -1,0 +1,60 @@
+
+
+
+body { 
+    color: blue;
+}
+
+.black-border {
+    border: 5px solid black;
+}
+
+#green-background {
+    background-color: green;
+}
+#greenground {
+    background-color: rgb(158, 236, 158);
+}
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 10;
+}  
+
+.rijtjes {
+    display: inline;
+    background-color: yellowgreen;
+    margin: 24;
+    padding: 10;
+    color: rgb(238, 27, 27)
+}
+@media screen and (min-width : 320px) and (max-width : 480px){
+    body{
+    background-color: white;
+    
+    }
+  }
+  
+  @media screen and (min-width : 768px) and (max-width : 1024px){
+    body{
+    background-color: blue;
+    color:white;
+    }
+  }
+  
+  @media screen and (min-width : 1024px){
+    body{
+    background-color: green;
+    line-height: normal;
+
+    }
+  }
+  
+  @media screen and (min-width : 1284px){
+    body{
+    background-color: yellow;
+    color :tomato;
+    }
+  }
+   
